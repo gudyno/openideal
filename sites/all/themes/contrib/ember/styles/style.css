@@ -4563,3 +4563,17 @@ a.active {
   padding-right: 10px;
   font-size: 1em;
 }
+
+.node-buttons input.go-back {
+  padding-left: 28px;
+  background-image: url("../images/go-back.png");
+  background-repeat: no-repeat;
+  background-position: 12px;
+}
+.node-buttons input.submit-idea {
+  padding-left: 46px;
+  background-image: url("../images/submit-idea.png");
+  background-repeat: no-repeat;
+  background-position: 12px 7px;
+  background-size: 24px;
+}

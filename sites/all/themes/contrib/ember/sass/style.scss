@@ -1222,6 +1222,25 @@ text-align: left;
 }
 
 
+//page /node/add
+
+.node-buttons {
+  input {
+    &.go-back {
+      padding-left: 28px;
+      background-image: url("../images/go-back.png");
+      background-repeat: no-repeat;
+      background-position: 12px;
+    }
+    &.submit-idea {
+      padding-left: 46px;
+      background-image: url("../images/submit-idea.png");
+      background-repeat: no-repeat;
+      background-position: 12px 7px;
+      background-size: 24px;
+    }
+  }
+}
 
 
 
